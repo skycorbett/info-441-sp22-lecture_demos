@@ -17,3 +17,5 @@ app.get('/style.css', async (req, res) => {
 app.listen(3000, () => {
   console.log('Example app listening at http://localhost:3000')
 })
+
+// ** I DID THIS ! ** IT RUNS SUCCESSFULLY ON LOCALHOST 3000 **

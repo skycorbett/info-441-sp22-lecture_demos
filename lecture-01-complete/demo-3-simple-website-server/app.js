@@ -21,3 +21,9 @@ app.get('/style.css', (req, res) => {
 app.listen(3000, () => {
   console.log('Example app listening at http://localhost:3000')
 })
+
+// Preserve log means that it keeps old requests around to the Network log
+
+// Always press Disable Cache which means don't remember the previous thing sent to Chrome or other web browser
+
+// **I DID THIS** !

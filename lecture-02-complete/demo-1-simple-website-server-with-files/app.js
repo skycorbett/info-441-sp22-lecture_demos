@@ -8,6 +8,18 @@ app.get('/', (req, res) => {
   res.send(fileContents)
 })
 
+app.get('/index.html', (req, res) => {
+  res.type('html')
+  let fileContents = fs.readFileSync("index.html")
+  res.send(fileContents)
+})
+
+app.get('/guessthepath', (req, res) => {
+  res.type('html')
+  let fileContents = fs.readFileSync("index.html")
+  res.send(fileContents)
+})
+
 app.get('/style.css', (req, res) => {
   res.type('css')
   let fileContents = fs.readFileSync("style.css")
@@ -17,3 +29,5 @@ app.get('/style.css', (req, res) => {
 app.listen(3000, () => {
   console.log('Example app listening at http://localhost:3000')
 })
+
+// ** I DID THIS! **
